@@ -1,4 +1,4 @@
-compile:
+build:
 	gcc -std=c99 -pedantic -Wall -W -c -Wextra -Iinclude/  src/*.c
 	
 link:
